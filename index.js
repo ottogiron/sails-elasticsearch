@@ -68,7 +68,7 @@ module.exports = (function () {
     // (same effect as if these properties were included at the top level of the model definitions)
     defaults: {
 
-      host: 'localhost',
+      host: 'localhost:9200',
 
       // If setting syncable, you should consider the migrate option,
       // which allows you to set how the sync will be performed.
