@@ -4,7 +4,7 @@
   "description": "elasticsearch adapter for Sails / Waterline",
   "main": "./lib/adapter.js",
   "scripts": {
-    "test": "node test/integration/runner -R spec -b"
+    "test": "curl -XDELETE 'http://localhost:9200/sails-elasticsearch'  && node test/integration/runner -R spec -b"
   },
   "repository": {
     "type": "git",
